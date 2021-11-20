@@ -34,7 +34,8 @@ Check the XMLTV / EPG settings of your IPTV app - is there an EPG source called 
 Join the discussion chat group here: [https://t.me/utvrc](https://t.me/utvrc) - most of the updates will be posted there.
 
 ## 403 / DRMSessionExcept?
-Update your playlists
+Update your playlists.
+If you experienced 403 , please check the web server that running this PHP script MUST BE IN THE SAME NETWORK ENVIRONMENT with the device you wish to watch this playlist.
 
 ## Channels List
 
