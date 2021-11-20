@@ -11,7 +11,7 @@ This repository is for watching unifi TV on IPTV clients other than the official
 4. This playlist may not work suddenly.
 5. This playlist only contain 17 free channels.
 6. This playlist is revive version of [https://github.com/weareblahs/unifi-tv/](https://github.com/weareblahs/unifi-tv/)
-7. You will need A PC / Server with Nginx / Apache / IIS running with PHP and enabled CURL PHP function that have the same network environment with the device you would like to watch.
+7. You will need A PC / Server with Nginx / Apache / IIS or XAMPP on Windows running with PHP and enabled CURL PHP function that have the same network environment with the device you would like to watch.
 
 ## What's this?
 This is a m3u8 playlist file for Unifi playTV / Unifi TV. These links don't use normal HLS / MPEG-TS Livestreams, instead, using encrypted ones (MPEG-DASH). Remember, this guide is not used to bypass DRM and doesn't provide Free Links - you need your own unifi TV subscription.
