@@ -33,6 +33,9 @@ Check the XMLTV / EPG settings of your IPTV app - is there an EPG source called 
 ## Discussing Anything or Asking Problem?
 Join the discussion chat group here: [https://t.me/utvrc](https://t.me/utvrc) - most of the updates will be posted there.
 
+## 403 / DRMSessionExcept?
+Update your playlists
+
 ## Channels List
 
 | Channel Name | Maximum Resolution | Category | HD | Additional notes | Native Channel Name | Subtitles |
