@@ -1,9 +1,6 @@
 # unifi-tv-revived
 Revived of weareblahs/unifi-tv. Watch free channels by unifi TV on any 3rd party IPTV players that support MPEG-DASH + Widevine!
 
-# unifi-tv-revived
-Revived of weareblahs/unifi-tv. Watch free channels by unifi TV on any 3rd party IPTV players that support MPEG-DASH + Widevine!
-
 ## What's this repository all about?
 This repository is for watching unifi TV on IPTV clients other than the official unifi TV app. See "What's this?" for more detailed info.
 
