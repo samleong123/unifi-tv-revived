@@ -40,6 +40,79 @@ $physicaldeviceid = "12345";/** Retrieve physicalDeviceID from F12 Network when 
 ```
 3. After done edit , save it and place it into your PC / Server with Nginx / Apache / IIS running with PHP and enabled CURL PHP function that have the same network environment with the device you would like to watch.
 
+## Detailed Instructions for XAMPP on Windows
+1. Download [XAMPP](https://downloadsapachefriends.global.ssl.fastly.net/8.0.12/xampp-windows-x64-8.0.12-0-VS16-installer.exe?from_af=true).
+2. Select all components to install
+
+![image](https://user-images.githubusercontent.com/58818070/142744150-d280797c-9bbc-411d-9698-bc6d6e4cbef8.png)
+
+3. Continue with installation 
+
+4. Untick "Learn more about BITNAMI for XAMPP"
+
+![image](https://user-images.githubusercontent.com/58818070/142744169-5806f202-c476-40ea-97b9-5f2d41c75802.png)
+</br>
+5. Continue with installation
+
+6. Upon successfully install , Windows Security will popout , tick Private Network + Public Network and allow access
+
+![image](https://user-images.githubusercontent.com/58818070/142744293-1630572e-28f3-470c-846b-d456da4faa19.png)
+
+7. Start the Control Panel , Start Apache 
+
+![image](https://user-images.githubusercontent.com/58818070/142744306-ce85753a-9b43-4631-8c15-cce72e799b43.png)
+
+8. After start Apache succesfully , you should see 80 / 443 beside Apache
+
+![image](https://user-images.githubusercontent.com/58818070/142744323-3f57b0b5-1a89-4af8-afbe-5e739f5a2da8.png)
+
+9. Press Explorer 
+
+![image](https://user-images.githubusercontent.com/58818070/142744328-a04f165f-d997-4cd1-b221-e034312331fd.png)
+
+10. A Explorer WIndows should pop out , navigate to htdocs inside the folder 
+
+![image](https://user-images.githubusercontent.com/58818070/142744384-73fd5471-ba4b-42cf-83d3-e0ece4bdd7dd.png)
+
+11. Place the unifi-tv-generate.php inside the htdocs folder
+
+![image](https://user-images.githubusercontent.com/58818070/142744405-40b96971-4b7c-4507-a040-9dc8ef95fdf2.png)
+
+12. Navigate to http://localhost/unifi-tv-generate.php
+
+![image](https://user-images.githubusercontent.com/58818070/142744417-c27f2a75-3469-4820-865f-e83a4a183e6b.png)
+
+13. Now , you should see the output of the M3U playlist
+
+14. Add the playlist to other device in your same network environment , you need to get your computer IP Address
+
+15. Win + R , ncpa.cpl
+
+![image](https://user-images.githubusercontent.com/58818070/142744444-994ed111-1610-4528-ad66-a9f843ef8be8.png)
+
+16. Find the active connections (in my case : WiFi)
+
+![image](https://user-images.githubusercontent.com/58818070/142744460-d20eaf10-a120-400e-aa25-a6d44b62ef31.png)
+
+
+17. Click on Details 
+
+![image](https://user-images.githubusercontent.com/58818070/142744465-d2b15150-e746-457c-b9cc-66ebe58fe552.png)
+
+
+18. Find "IP Address" (In my case 192.168.0.156 is my IP Address)
+![image](https://user-images.githubusercontent.com/58818070/142744475-6103a090-9972-4a41-b2f1-96f8624e4916.png)
+
+
+19. Now , replace http://localhost/unifi-tv-generate.php to http://ipaddress/unifi-tv-generate.php (In my case : http://192.168.0.156/unifi-tv-generate.php)
+
+20. You should visit this link in another devices connected with the same network environment with the XAMPP devices.
+
+
+
+
+
+
 # Third Part : Watching on the same network environment devices
 1. Download / Install any supported IPTV Players and put the URL of this script (Depends where you place it into ur web server)
 2. Wait for processing , you should able to watch now.
