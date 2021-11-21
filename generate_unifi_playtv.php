@@ -37,7 +37,10 @@ $csession = $result["cSessionId"];
 $userid = $result["profileID"];
 $jsession = $result["jSessionID"];
 
-if (empty($vuid)) {echo "Uh-oh. Seems like your username / password is wrong. Please try again"; echo $resp; echo $data;} else {
+if (empty($vuid)) {echo "Uh-oh. Seems like your username / password is wrong. Please try again"; echo "
+Raw Data:
+
+"; echo $resp; echo $data;} else {
 $url = "https://playtv.unifi.com.my:7041/VSP/V3/PlayChannel";
 
 $curl = curl_init($url);
