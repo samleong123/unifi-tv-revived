@@ -130,7 +130,7 @@ Select "Add Playlist".
 ![WIN_20210708_23_34_46_Pro](https://user-images.githubusercontent.com/37889443/124950780-4e8a8c00-e045-11eb-8431-7b45e726bffc.jpg)
 5. Select "Next" again.
 ![WIN_20210708_23_34_53_Pro](https://user-images.githubusercontent.com/37889443/124950786-4fbbb900-e045-11eb-8125-07d256170b0c.jpg)
-6. Select "Done". If the "Enter URL" field on this part is blank, type / paste "https://unifiplaytv.samsam123.tk/epg".
+6. Select "Done". If the "Enter URL" field on this part is blank, type / paste "https://weareblahs.github.io/epg/unifitv.xml".
 ![WIN_20210708_23_34_57_Pro](https://user-images.githubusercontent.com/37889443/124950790-50ece600-e045-11eb-8fc2-b89cdf6ad592.jpg)
 7. You're ready to watch!
 ![WIN_20210708_23_35_38_Pro](https://user-images.githubusercontent.com/37889443/124950793-521e1300-e045-11eb-9cab-7459a3bff7b3.jpg)
@@ -160,7 +160,7 @@ Select "Playlist".
 ![WIN_20210708_23_43_54_Pro](https://user-images.githubusercontent.com/37889443/124952608-f9e81080-e046-11eb-9e43-59bf95e27d6b.jpg)
 10. Select "Providers".
 ![WIN_20210708_23_44_49_Pro](https://user-images.githubusercontent.com/37889443/124952635-feacc480-e046-11eb-97f7-3c5f99fdeb2d.jpg)
-11. Select "unifiplaytv.samsam123.tk" or "my-iptv.herokuapp.com".
+11. Select "weareblahs.github.io".
 ![WIN_20210708_23_44_52_Pro](https://user-images.githubusercontent.com/37889443/124952647-010f1e80-e047-11eb-8638-5861eac19279.jpg)
 12. Select "Provider Properties". 
 ![WIN_20210708_23_45_00_Pro](https://user-images.githubusercontent.com/37889443/124952656-02404b80-e047-11eb-9d86-2204565ff33a.jpg)
