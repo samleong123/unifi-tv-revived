@@ -58,6 +58,7 @@ If you experienced 403 , please check the web server that running this PHP scrip
 | unifi Sports 3 | 1920x1080 25fps | Sports | ✓ | unifi TV In-house Channel |
 | unifi Sports 4 | 1920x1080 25fps | Sports | ✓ | unifi TV In-house Channel |
 | unifi Sports 5 | 1920x1080 25fps | Sports | ✓ | unifi TV In-house Channel |
+| Celestial Movies | 1920x1080 25fps | Chinese Variety | ✓ | Available on Astro |
 
 ## Credits 
 1. [weareblahs](https://github.com/weareblahs)
