@@ -595,5 +595,36 @@ echo '
 #EXTINF:-1 group-title="Sports" ch-number="705" tvg-id="705" tvg-chno="705" tvg-logo="https://playtv.unifi.com.my:7053/CPS/images/universal/film/logo/202108/20210811/20210811162210893gcu.png",unifi Sports 5 HD
 '.$unifisports5;
 
+   $url = "https://playtv.unifi.com.my:7041/VSP/V3/PlayChannel";
+
+$curl = curl_init($url);
+curl_setopt($curl, CURLOPT_URL, $url);
+curl_setopt($curl, CURLOPT_POST, true);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+$headers = array(
+   "Content-Type: application/json",
+   "Cookie: JSESSIONID=$jsession; CSESSIONID=$csession; USER_ID=$userid;"
+);
+curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
+
+$data = '{"channelID":"51882317","mediaID":"51882327","businessType":"BTV","isReturnProduct":"1","isHTTPS":"1","checkLock":{"checkType":"0"}}';
+curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+
+//for debug only!
+curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+
+$resp = curl_exec($curl);
+curl_close($curl);
+$result = json_decode($resp, true);
+$cm = $result["playURL"];
+echo '
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://ottweb.hypp.tv:8064?deviceId='.$vuid
+.'
+#EXTINF:-1 group-title="Chinese Variety" ch-number="1000" tvg-id="1000" tvg-chno="1000" tvg-logo="https://playtv.unifi.com.my:7041/CPS/images/universal/film/logo/202109/20210926/20210926030715748ltd.png",Celestial Movies HD
+'.$cm;
 }
 ?>
