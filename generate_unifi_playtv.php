@@ -416,7 +416,7 @@ $headers = array(
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
-$data = '{"channelID":"20000086","mediaID":"38729671","businessType":"BTV","isReturnProduct":"1","isHTTPS":"1","checkLock":{"checkType":"0"}}';
+$data = '{"channelID":"20000016","mediaID":"38654032","businessType":"BTV","isReturnProduct":"1","isHTTPS":"1","checkLock":{"checkType":"0"}}';
 
 curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
 
