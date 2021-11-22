@@ -9,7 +9,7 @@ This repository is for watching unifi TV on IPTV clients other than the official
 2. This playlist is geo-blocked to use in Malaysia only.
 3. The MPEG-DASH manifest URL is IP-Based , you need to run the PHP Script at the same network environment with your TV / Android Devices / TVBox to watch.
 4. This playlist may not work suddenly.
-5. This playlist only contain 17 free channels.
+5. This playlist only contain 18 free channels.
 6. This playlist is revive version of [https://github.com/weareblahs/unifi-tv/](https://github.com/weareblahs/unifi-tv/)
 7. You will need A PC / Server with Nginx / Apache / IIS or XAMPP on Windows running with PHP and enabled CURL PHP function that have the same network environment with the device you would like to watch.
 
