@@ -74,11 +74,11 @@ $physicaldeviceid = "12345";/** Retrieve physicalDeviceID from F12 Network when 
 
 ![image](https://user-images.githubusercontent.com/58818070/142744384-73fd5471-ba4b-42cf-83d3-e0ece4bdd7dd.png)
 
-11. Place the unifi-tv-generate.php inside the htdocs folder
+11. Place the generate-unifi-tv.php inside the htdocs folder
 
 ![image](https://user-images.githubusercontent.com/58818070/142744405-40b96971-4b7c-4507-a040-9dc8ef95fdf2.png)
 
-12. Navigate to http://localhost/unifi-tv-generate.php
+12. Navigate to http://localhost/generate-unifi-tv.php
 
 ![image](https://user-images.githubusercontent.com/58818070/142744417-c27f2a75-3469-4820-865f-e83a4a183e6b.png)
 
