@@ -1,5 +1,3 @@
-# ARCHIVED
-
 # unifi-tv-revived
 Revived of weareblahs/unifi-tv. Watch free channels by unifi TV on any 3rd party IPTV players that support MPEG-DASH + Widevine!
 
@@ -48,20 +46,12 @@ If you experienced 403 , please check the web server that running this PHP scrip
 | TV2 | 1024x576 25fps | Malaysian Variety | Downscaled from HD feed - HD available on MYTV, RTM Klik and Astro | Burn-in subtitles - MYTV Broadcasting has embedded subtitles |
 | TV3 | 1920x1080 25fps | Malaysian Variety | ✓ | HD available on MYTV Broadcasting |
 | DidikTV KPM | 1024x576 25fps | Malaysian Variety | Downscaled from HD feed - HD available on MYTV Broadcasting and Tonton | Previously NTV7 |
-| 8TV | 1024x576 25fps | Chinese Variety | Downscaled from HD feed - HD available on MYTV Broadcasting and Tonton | | 八度空间 |
+| 8TV | 1920x1080 25fps | Chinese Variety | ✓ | | 八度空间 |
 | TV9 | 1024x576 25fps | Malaysian Variety | Downscaled from HD feed - HD available on MYTV Broadcasting and Tonton | HD available on MYTV Broadcasting |
 | Salam HD | 1920x1080 25fps | Malaysian Variety | ✓ | unifi TV In-house Channel |
 | TV AlHijrah | 1024x576 25fps | Malaysian Variety | Downscaled from HD feed / HD available on MYTV Broadcasting |
-| Laku Mall | 1920x1080 25fps | Malaysian Variety | ✓ | unifi TV In-house Channel |
 | Channel NewsAsia | 1024x576 25fps | News | Downscaled from HD feed | International Feed |
-| Parlimen Malaysia | 1920x1080 25fps | News | ✓ | unifi TV Exclusive |
 | NHK WORLD-JAPAN | 1920x1080 25fps | News | ✓ | International Feed |
-| unifi Sports 1 | 1920x1080 25fps | Sports | ✓ | unifi TV In-house Channel |
-| unifi Sports 2 | 1920x1080 25fps | Sports | ✓ | unifi TV In-house Channel |
-| unifi Sports 3 | 1920x1080 25fps | Sports | ✓ | unifi TV In-house Channel |
-| unifi Sports 4 | 1920x1080 25fps | Sports | ✓ | unifi TV In-house Channel |
-| unifi Sports 5 | 1920x1080 25fps | Sports | ✓ | unifi TV In-house Channel |
-| Celestial Movies | 1920x1080 25fps | Chinese Variety | ✓ | Available on Astro |
 | LUXE TV | 1920x1080 25fps | Lifestyle & Knowledge | ✓ | International Feed |
 
 ## Credits 
